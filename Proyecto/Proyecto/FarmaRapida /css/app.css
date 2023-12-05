@@ -1,0 +1,41 @@
+#search-bar-container {
+  background-color: rgb(51, 102, 153);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search-bar-container .card-header {
+  background-color: rgb(38, 77, 115);
+}
+
+#search-bar-container .card-header h3 {
+  text-align: center;
+  color: white;
+}
+
+#response-card {
+  background-color: rgb(216, 229, 243);
+  margin-bottom: 10px;
+}
+
+#response-card .card-header {
+  background-color: rgb(177, 203, 231);
+}
+
+#response-card .card-header h5 {
+  text-align: center;
+  color: black;
+}
+
+#response-card img {
+  height: 500px;
+  width: 500px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#searchError {
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(244, 113, 65);
+}

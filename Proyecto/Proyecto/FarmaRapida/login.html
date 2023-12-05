@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="favicon.png" rel="icon" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="center col-sm-12 col-md-4 col-lg-4">
+          <div class="p-4 bg-white shadow-sm rounded">
+            <div class="mb-4">
+              <div class="mb-3">
+                <h3>Iniciar sesión</h3>
+              </div>
+              <div class="">¿No tienes una cuenta aun? <a href="#">Registrate</a></div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="in-txt-user">Usuario</label>
+              <input class="form-control" id="in-txt-user" type="text" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="in-txt-pass">Contraseña</label>
+              <input class="form-control" id="in-txt-pass" type="password" />
+              <div id="forgot-pass">
+                <label><a href="#">¿Olvidaste la contraseña?</a></label>
+              </div>
+            </div>
+            <div class="mb-4">
+              <input class="form-check-input" type="radio" />
+              <label class="form-check-label">Recuerdame en este equipo</label>
+            </div>
+            <div class="text-center">
+              <button
+                onclick="login()"
+                style="color: rgb(241, 235, 247)"
+                class="btn btn-primary"
+                id="btn-login"
+                type="button"
+              >
+                Iniciar sesión
+              </button>
+            </div>
+          </div>
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
+
+          <dotlottie-player
+            src="https://lottie.host/9a695e5b-6003-46e0-9b54-b2e38b355f49/1R1mYp1p2s.json"
+            background="transparent"
+            speed="1"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="./js/service.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

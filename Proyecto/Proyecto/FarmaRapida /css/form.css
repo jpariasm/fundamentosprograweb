@@ -1,0 +1,137 @@
+.sectionForm .containerForm {
+  width: 80%;
+  padding: 20px;
+}
+.sectionForm .containerForm .formRow {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.sectionForm .containerForm .formRow .colForm {
+  position: relative;
+  width: 100%;
+  padding: 0px 10px;
+  margin: 30px 0px 10px;
+  transition: 0.5s;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #000;
+  font-weight: bold;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox input,
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea textarea {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 0px 10px;
+  z-index: 1;
+  color: #000;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox .text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 0px 10px;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox input:focus + .text,
+.sectionForm .containerForm .formRow .colForm .inputBox input:valid + .text {
+  left: -10px;
+  top: -35px;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox .line {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  transition: 0.5s;
+  border-radius: 2px;
+  pointer-events: none;
+  background-color: white;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox input:focus ~ .line,
+.sectionForm .containerForm .formRow .colForm .inputBox input:valid ~ .line {
+  height: 100%;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding: 10px 0px;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea textarea {
+  height: 100px;
+  resize: none;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:focus + .text,
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:valid + .text {
+  left: -10px;
+  top: -35px;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:focus ~ .line,
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:valid ~ .line {
+  height: 100%;
+}
+input[type='submit'] {
+  border: none;
+  padding: 7px 35px;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.botonScrollTop {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background-color: rgb(51, 102, 153);
+  right: 30px;
+  bottom: 30px;
+  text-align: center;
+  line-height: 45px;
+  color: #000;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alertaRoja {
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 18px;
+}
+.alertaVerde {
+  color: #2d572c;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+input[type='button'] {
+  border: none;
+  padding: 7px 25px;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 2px;
+}

@@ -1,0 +1,64 @@
+.tab {
+  overflow: hidden;
+  border: 2px solid #ccc;
+  background-color: rgb(38, 77, 115);
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  color: lightgrey;
+}
+
+h3 {
+  color: beige;
+}
+
+.tam1 {
+  font-size: 24px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  color: #000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: white;
+  color: black;
+}
+
+.tab button.active {
+  background-color: rgb(51, 102, 153);
+  color: #fff;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 2px solid #ccc;
+  border-top: none;
+  background: rgb(38, 77, 115);
+}
+
+
+/* El efecto de animación desvanecimiento tarda 2 segundos al entrar a cada pestaña */
+
+.tabcontent {
+  animation: efect1 2s;
+}
+
+@keyframes efect1 {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}

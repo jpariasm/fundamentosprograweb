@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FarmaRapida - Galery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="favicon.png" rel="icon" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="logo" class="navbar-brand" href="/homepage.html">FarmaRapida</a>
+            </li>
+            <li class="nav-item">
+              <a id="app" class="nav-link" href="/app.html">Buscador</a>
+            </li>
+            <li class="nav-item">
+              <a id="gallery" class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a id="logout" class="nav-link" href="/login.html">Salir</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="gallery" class="container-fluid text-center pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h4 id="principalTittle" class="display-2 pt-5 ">Categoria de productos</h4>
+          </div>
+          <div class="col-12">
+            <select name="menuOpciones" id="dropMenu" class="form-select form-select-lg mb-5">
+              <option value="">Seleccionar una categoría</option>
+              <option value="kids">Niños</option>
+              <option value="all">Adultos</option>
+              <option value="skinCare">Cuidado de la piel</option>
+              <option value="videos">Videos</option>
+              <option value="3dModel">Imagen 3D</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="photoGallery kidsGallery fondo mb-5">
+          <div class="tz-gallery">
+            <div class="row">
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/babyWhipes.jpg">
+                    <img src="Imagenes/galeria/babyWhipes.jpg" alt="babyWhipes" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/panales.jpg">
+                    <img src="Imagenes/galeria/panales.jpg" alt="panales" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/chupeta.jpg">
+                    <img src="Imagenes/galeria/chupeta.jpg" alt="chupeta" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photoGallery allGallery fondo mb-5">
+          <div class="tz-gallery">
+            <div class="row">
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/electrolit.jpg">
+                    <img src="Imagenes/galeria/electrolit.jpg" alt="electrolit" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/chapstick.jpg">
+                    <img src="Imagenes/galeria/chapstick.jpg" alt="chapstick" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/algodon.jpg">
+                    <img src="Imagenes/galeria/algodon.jpg" alt="algodon" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photoGallery skinCareGallery fondo mb-5">
+          <div class="tz-gallery">
+            <div class="row">
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/acido.jpg">
+                    <img src="Imagenes/galeria/acido.jpg" alt="acido" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/bloqueador.jpg">
+                    <img src="Imagenes/galeria/bloqueador.jpg" alt="bloqueador" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-6 col-lg-4">
+                <div class=" ">
+                  <a class=" " href="Imagenes/galeria/mascara.jpg">
+                    <img src="Imagenes/galeria/mascara.jpg" alt="mascara" class="img-container img-fluid" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photoGallery videoGallery fondo mb-5">
+          <div class="d-flex justify-content-center">
+            <div class="videoBtn">
+              <button id="boton1" onclick="playVideo('video1','youtube1')" class="buttonVideo cursor">Recorrido</button>
+              <div id="video1" class="lightbox" onclick="hideVideo('video1','youtube1')">
+                <div class="lightbox-container">
+                  <div class="lightbox-content">
+                    <button onclick="hideVideo('video1','youtube1')" class="lightbox-close cursor">Cerrar | ✕</button>
+                    <div class="video-container">
+                      <iframe
+                        id="youtube1"
+                        width="960"
+                        height="540"
+                        src="https://www.youtube.com/embed/qLhpzNYeTQw?si=lYyOE4HggkoIkkV4"
+                        allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="videoBtn">
+              <button id="boton2" onclick="playVideo('video2','youtube2')" class="buttonVideo cursor">
+                Farmacología
+              </button>
+              <div id="video2" class="lightbox" onclick="hideVideo('video2','youtube2')">
+                <div class="lightbox-container">
+                  <div class="lightbox-content">
+                    <button onclick="hideVideo('video2','youtube2')" class="lightbox-close cursor">Cerrar | ✕</button>
+                    <div class="video-container">
+                      <iframe
+                        id="youtube2"
+                        width="960"
+                        height="540"
+                        src="https://www.youtube.com/embed/jIs2qgAhxSI?si=lxQm1Rh18Sx6tKnZ"
+                        allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="videoBtn">
+              <button id="boton3" onclick="playVideo('video3','youtube3')" class="buttonVideo cursor">
+                Antibióticos
+              </button>
+              <div id="video3" class="lightbox" onclick="hideVideo('video3','youtube3')">
+                <div class="lightbox-container">
+                  <div class="lightbox-content">
+                    <button onclick="hideVideo('video3','youtube3')" class="lightbox-close cursor">Cerrar | ✕</button>
+                    <div class="video-container">
+                      <iframe
+                        id="youtube3"
+                        width="960"
+                        height="540"
+                        src="https://www.youtube.com/embed/Ne1pnSPw5aQ?si=zbjz7wzzCjAWD-uI"
+                        allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photoGallery modelGallery fondo mb-5">
+          <div class="sketchfab-embed-wrapper">
+            <iframe
+              title="PHARMACY STOREFRONT FARMACIA DRUGSTORE 2.0"
+              frameborder="0"
+              allowfullscreen
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+              allow="autoplay; fullscreen; xr-spatial-tracking"
+              xr-spatial-tracking
+              execution-while-out-of-viewport
+              execution-while-not-rendered
+              web-share
+              width="600"
+              height="450"
+              src="https://sketchfab.com/models/4718398419ed4079a1e82704a90c04df/embed?ui_theme=dark&dnt=1"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+      crossorigin="anonymous "
+    ></script>
+    <script type="text/javascript" src="./js/gallery.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js "></script>
+    <script>
+      baguetteBox.run('.tz-gallery');
+    </script>
+  </body>
+</html>
